@@ -45,7 +45,7 @@ color:#FF3333;
 {
 text-align:center;
 color:#993399;
-font-family: 'Arvo', courier, serif;	
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";	
 }
 .deals hr {
 	border-top: 4px solid #993399; 
@@ -152,7 +152,7 @@ background-color:#993399;
 
 .homepage h1, .homepage h2, .homepage h3 {
 	color:#993399;
-	font-family: 'Arvo', courier, serif;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	text-transform: uppercase;
 }
 
