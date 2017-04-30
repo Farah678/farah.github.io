@@ -45,8 +45,6 @@ color:#FF3333;
 {
 text-align:center;
 color:#993399;
-font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";	
-font-weight:800;
 }
 .deals hr {
 	border-top: 4px solid #993399; 
@@ -153,8 +151,6 @@ background-color:#993399;
 
 .homepage h1, .homepage h2, .homepage h3 {
 	color:#993399;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	font-weight: 800;
 	text-transform: uppercase;
 }
 
