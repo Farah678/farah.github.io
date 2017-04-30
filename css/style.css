@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* CSS Document */
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 
@@ -343,3 +344,354 @@ width:100%;
 
 }
 
+=======
+/* CSS Document */
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+body
+{
+	background-color:#CDE8E5;
+}
+
+.navbar {
+	background-color:#CDE8E5;
+}
+.navbar-brand
+{
+	color:#993399;
+	font-weight: bold;
+}
+.navbar-brand:hover
+{
+	color:#993399;
+}
+nav ul li
+{
+	height: 100%;
+	margin-left:5px;
+	font-weight: 600;
+}
+nav ul li a
+{
+color:#993399;
+}
+nav ul li a:active
+{
+color:#FF3333;  
+}
+nav ul li a:hover
+{
+color:#FF3333;  
+}
+
+.deals
+{
+	margin-top: 30px;
+}
+.deals h2
+{
+text-align:center;
+color:#993399;
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 400;	
+}
+.deals hr {
+	border-top: 4px solid #993399; 
+	width: 120px;
+	margin-top: 15px;
+}
+.thumbnail
+{
+width:350px;
+background-color:white;
+margin-bottom: 10px;
+border-radius: 4px;
+}
+.caption
+{
+	width:80%;
+	margin: auto;
+	padding-top:25px;
+	padding-bottom: 25px;
+	align-items: center;
+	font-weight: 200;
+	font-size:18px;
+}
+
+.thumbnail img
+{
+width:100%;
+}
+.thumbnail .item-link-1
+{
+background-color:#993399;
+}
+.thumbnail .item-link-1:hover
+{
+background-color:#FF3333;
+}
+.thumbnail .item-link-2
+{
+background-color:#FF3333;
+}
+.thumbnail .item-link-2:hover
+{
+background-color:#993399;
+}
+.thumbnail button a
+{color:#FFFFFF;
+text-decoration:none;
+}
+
+.image
+{
+position:relative;
+width:100%;
+height:430px;
+}
+
+.stage h1 {
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+
+.stage p 
+{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin-bottom: 30px;
+	padding: 0 50px;
+}
+
+.box
+{
+	margin-top:auto;
+	margin-bottom:auto;
+	text-align: center;
+}
+.transbox
+{
+	margin-top:30px;
+	margin-bottom:auto;
+    background: rgba(128,128, 128,0.5);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight:400;
+    color: #000000;
+}
+.transbox button
+{
+border-color:#993399;
+background-color:#993399;
+}
+.transbox button:hover
+{
+border-color:#993399;
+background-color:#993399;
+}
+#get-involved {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.homepage {
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.homepage h1, .homepage h2, .homepage h3 {
+	color:#993399;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.homepage h2 {
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.homepage h3 {
+	font-size: 26px;
+	color:#FF3333;
+}
+
+.homepage p {
+	font-size: 22px;
+	font-weight: 300;
+}
+#about
+{
+background-color:#B2B2B2;
+}
+/*.homepage a {
+	color: #e74c3c;
+}
+.homepage a:hover {
+	color: #e74c3c;
+	text-decoration: none;
+	opacity: .8;
+}*/
+
+#get-involved a {
+	color:#993399;
+	font-size: 18px;
+}
+#get-involved a:hover {
+	color: #e74c3c;
+	text-decoration: none;
+	opacity: .8;
+}
+.homepage hr {
+	border-top: 4px solid #993399; 
+	width: 120px;
+	margin-top: 15px;
+}
+
+.footer
+{position:relative;
+height:80px;
+background-color:#B2B2B2;
+color: black;
+width:100%;	
+}
+.footer a, a:hover
+{
+	color:black;
+}
+/*
+@media (max-width: 1199px) { 
+
+	.jumbotron h1 {
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+
+}
+*/
+@media (max-width: 991px) { 
+
+	.stage h1 {
+		font-size: 44px;
+	}
+
+	.stage p {
+		padding: 0 10px;
+	}
+
+	#get-involved .col-md-4 {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+}
+
+@media (max-width: 991px)
+{
+	.homepage h3 {
+	font-size: 22px;
+}
+	.homepage p {
+	font-size: 18px;
+}
+	.transbox
+	{
+		height:80%;		
+	}
+}
+@media (max-width: 767px) { 
+	
+.image
+	{
+		max-height: 350px;
+	}	
+	
+	.stage
+	{
+		min-height:750px;
+		max-height: 800px;
+	}
+	.homepage h1 {
+		font-size: 26px;
+	}
+    .homepage h2 {
+		font-size: 24px;
+	}
+	.homepage h3 {
+	font-size: 22px;
+	}
+	.homepage p {
+		font-size: 18px;
+		padding: 0;
+	}
+	
+	
+	.box
+	{
+		margin-top:50px;
+		margin-bottom: auto;
+	}
+	.transbox
+	{
+		margin-top:30px;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.thumbnail
+	{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.btn-lg {
+		font-size: 18px;
+	}
+	
+
+	.homepage p {
+		font-size: 18px;
+	}
+
+}
+
+@media (max-width: 375px) {
+	
+	.image
+	{
+		max-height:320px;
+	}	
+	
+	.box
+	{
+		height: 60%;
+		top: auto;
+		bottom: auto;
+	}
+	
+	.stage h1 {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+	.homepage h1 {
+	font-size: 22px;
+	}
+	.homepage h2 {
+	font-size: 20px;
+	}
+	.homepage h3 {
+	font-size: 18px;
+	}
+	.homepage p {
+	font-size: 16px;
+}
+
+.stage p 
+{
+	margin-bottom: 0px;
+	padding: 0 20px;
+}
+
+}
+
+>>>>>>> origin/master
